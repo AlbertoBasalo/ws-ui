@@ -2,6 +2,44 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
+```bash
+ng new ws-ui --no-create-application
+ng g lib lab-ui --prefix=lab-ui --style=css
+ng g app lab-ui-host --minimal
+ng config projects.lab-ui.schematics.@schematics/angular:component.changeDetection \"OnPush\"
+ng config projects.lab-ui.schematics.@schematics/angular:component.flat true
+ng config projects.lab-ui.schematics.@schematics/angular:component.inlineTemplate true
+ng config projects.lab-ui.schematics.@schematics/angular:component.inlineStyle true
+ng config projects.lab-ui.schematics.@schematics/angular:component.style \"none\"
+```
+
+### Development and testing
+
+```bash
+# "watch": "ng build lab-ui --watch --configuration development",
+npm run watch
+# "start": "ng serve lab-ui-host",
+npm start
+# "test": "ng test lab-ui"
+npm test
+```
+
+### Build and publish
+
+```bash
+# "publish": "npm run build && cd dist/lab-ui && npm link",
+npm run publish
+# list global npm links
+npm ls -g --depth=0
+# target the global npm link
+cd ..
+ng new lab-target --minimal
+cd lab-target
+npm link lab-ui
+# build.options: preserveSymlinks: true
+npm start
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
