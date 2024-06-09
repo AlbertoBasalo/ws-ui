@@ -4,7 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ```bash
 ng new ws-ui --no-create-application
-ng g lib lab-ui --prefix=lab-ui --style=css
+cd ws-ui
+ng g lib lab-ui --prefix=lab-ui
 ng g app lab-ui-host --minimal
 ng config projects.lab-ui.schematics.@schematics/angular:component.changeDetection \"OnPush\"
 ng config projects.lab-ui.schematics.@schematics/angular:component.flat true
