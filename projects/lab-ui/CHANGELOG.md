@@ -2,46 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.0.10](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.9...v0.0.10) (2024-06-10)
+### [0.0.11](https://github.com/AlbertoBasalo/ws-ui/compare/v18.3.0...v0.0.11) (2024-06-10)
 
-### [0.0.9](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.8...v0.0.9) (2024-06-10)
-
-### [0.0.8](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.7...v0.0.8) (2024-06-10)
-
-
-### Bug Fixes
-
-* branch name ([225c9c9](https://github.com/AlbertoBasalo/ws-ui/commit/225c9c955837f2c007ddb13fac894b7f59d76846))
-
-### [0.0.7](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.6...v0.0.7) (2024-06-10)
-
-### [0.0.6](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.5...v0.0.6) (2024-06-10)
-
-
-### Bug Fixes
-
-* cd cd ([14f3c34](https://github.com/AlbertoBasalo/ws-ui/commit/14f3c34681390d5a11d8badfe574665cb9ba44a7))
-
-### [0.0.5](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.4...v0.0.5) (2024-06-10)
+## [18.3.0](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.10...v18.3.0) (2024-06-10)
 
 
 ### Features
 
-* git from home ([01ffec1](https://github.com/AlbertoBasalo/ws-ui/commit/01ffec18a9c5abda365b8198aac3626a345f81b9))
-
-### [0.0.4](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.3...v0.0.4) (2024-06-10)
-
-
-### Features
-
-* fixed path ([59f0655](https://github.com/AlbertoBasalo/ws-ui/commit/59f0655ba978574e14afe5cdc3c5915844dffcae))
-
-### [0.0.3](https://github.com/AlbertoBasalo/ws-ui/compare/v18.2.0...v0.0.3) (2024-06-10)
-
-
-### Features
-
-* scripts on the library project ([7455f6d](https://github.com/AlbertoBasalo/ws-ui/commit/7455f6d3574d4050228306ee0270f27c1567d2dc))
+* token default ([943880c](https://github.com/AlbertoBasalo/ws-ui/commit/943880c48dcc106e66399c61d248fd298036b771))
 
 ## [18.2.0](https://github.com/AlbertoBasalo/ws-ui/compare/v18.1.0...v18.2.0) (2024-06-10)
 
