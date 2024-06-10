@@ -4,11 +4,12 @@
   "version": "18.0.0",
   "scripts": {
     "ng": "ng",
+    "link": "npm link @lab/ui @lab/srv @lab/core",
     "start": "ng serve lab-ui-host",
     "build": "ng build lab-ui --configuration production",
     "watch": "ng build lab-ui --watch --configuration development",
-    "publish": "npm run build && cd dist/lab-ui && npm link",
-    "test": "ng test lab-ui"
+    "test": "ng test lab-ui",
+    "publish": "npm run build && cd dist/lab-ui && npm link"
   },
   "private": true,
   "dependencies": {
