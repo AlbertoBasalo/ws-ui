@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.13...v0.0.14) (2024-06-10)
+
+
+### Features
+
+* clean ([db59721](https://github.com/AlbertoBasalo/ws-ui/commit/db5972156309d7d0da79860efa73323d1caea331))
+* scripting ([02c7784](https://github.com/AlbertoBasalo/ws-ui/commit/02c778419b7273e2291c58547e98d3adc7ae6c10))
+
 ### [0.0.13](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.12...v0.0.13) (2024-06-10)
 
 ### [0.0.12](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.11...v0.0.12) (2024-06-10)
