@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.2.0](https://github.com/AlbertoBasalo/ws-ui/compare/v18.1.0...v18.2.0) (2024-06-10)
+
+
+### Features
+
+* add publishing utils ([b2897bc](https://github.com/AlbertoBasalo/ws-ui/commit/b2897bc80094c6d8f15257b68160240d1d35caa0))
+
 ## 18.1.0 (2024-06-10)
 
 
