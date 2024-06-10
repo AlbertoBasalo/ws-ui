@@ -4,11 +4,7 @@
   "version": "0.0.13",
   "scripts": {
     "ng": "ng",
-    "oldprerelease": "ng build --configuration production ",
-    "release": "standard-version",
-    "prepublish": "npm run release",
-    "publish": "cd ../../dist/lab-ui && npm link",
-    "postpublish": "git push --follow-tags origin master"
+    "release": "standard-version"
   },
   "peerDependencies": {
     "@angular/common": "^18.0.0",
