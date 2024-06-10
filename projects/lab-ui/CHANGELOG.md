@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.15...v0.0.16) (2024-06-10)
+
+
+### Features
+
+* uppercase ([082689e](https://github.com/AlbertoBasalo/ws-ui/commit/082689e20440e30a623cb40592c900fd9357f0f6))
+
 ### [0.0.15](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.14...v0.0.15) (2024-06-10)
 
 ### [0.0.14](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.13...v0.0.14) (2024-06-10)
