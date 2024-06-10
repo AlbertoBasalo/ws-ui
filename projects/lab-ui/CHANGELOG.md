@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.3...v0.0.4) (2024-06-10)
+
+
+### Features
+
+* fixed path ([59f0655](https://github.com/AlbertoBasalo/ws-ui/commit/59f0655ba978574e14afe5cdc3c5915844dffcae))
+
 ### [0.0.3](https://github.com/AlbertoBasalo/ws-ui/compare/v18.2.0...v0.0.3) (2024-06-10)
 
 
