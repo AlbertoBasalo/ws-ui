@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.4...v0.0.5) (2024-06-10)
+
+
+### Features
+
+* git from home ([01ffec1](https://github.com/AlbertoBasalo/ws-ui/commit/01ffec18a9c5abda365b8198aac3626a345f81b9))
+
 ### [0.0.4](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.3...v0.0.4) (2024-06-10)
 
 
