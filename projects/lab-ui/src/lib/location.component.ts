@@ -6,13 +6,19 @@ import {
 } from '@angular/core';
 
 /**
- * Component to display the location of an activity.
+ * Component to display a location
+ * @description Displays the location value.
+ * @param `value` to display as a location.
  */
 @Component({
   selector: 'lab-ui-location',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: ` <span>📍At {{ value() }} </span> `,
+  template: `
+    <span>
+      📍At <strong>{{ value() }}</strong>
+    </span>
+  `,
 })
 export class LocationComponent {
   // * Input signal division

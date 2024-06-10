@@ -11,7 +11,7 @@
     "test": "ng test lab-ui",
     "prepublish": "cd ./projects/lab-ui && npm run release ",
     "publish": "npm run build && cd ./dist/lab-ui && npm link",
-    "postpublish": "git push --follow-tags origin master"
+    "postpublish": "npm run link && git push --follow-tags origin master"
   },
   "private": true,
   "dependencies": {
@@ -40,6 +40,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.0.0",
+    "release-please": "^16.12.0",
     "standard-version": "^9.5.0",
     "typescript": "~5.4.2"
   }

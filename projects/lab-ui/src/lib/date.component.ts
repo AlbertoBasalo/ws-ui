@@ -15,15 +15,21 @@ export const DATE_FORMAT = new InjectionToken<string>('DATE_FORMAT', {
 
 /**
  * Presentation component for displaying a date value.
- * - Displays the date value in the configured date format.
- * - Uses the `DatePipe` to format the value.
+ * @description Displays the date value in a configurable date format.
+ * @params `value` to display as a formatted date.
+ * @requires `DATE_FORMAT` to configure the date format.
+ * @requires `DatePipe` to format the value.
  */
 @Component({
   selector: 'lab-ui-date',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [DatePipe],
-  template: ` <span>📅 On {{ value() | date : dateFormat }}</span> `,
+  template: `
+    <span>
+      📅 On <strong>{{ value() | date : dateFormat }}</strong>
+    </span>
+  `,
 })
 export class DateComponent {
   // * Input signal division

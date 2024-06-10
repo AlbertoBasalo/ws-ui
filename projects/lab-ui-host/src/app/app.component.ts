@@ -17,5 +17,5 @@ import { DATE_FORMAT, DateComponent, LocationComponent } from 'lab-ui';
 export class AppComponent {
   title = 'lab-ui-host';
   location = 'Paris';
-  date = new Date(2021, 6, 1);
+  date = new Date(2025, 7, 15);
 }
