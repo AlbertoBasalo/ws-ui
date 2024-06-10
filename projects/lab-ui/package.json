@@ -7,7 +7,7 @@
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin main",
     "prepublish": "ng build --configuration production && npm run release",
-    "publish": "cd /dist/lab-ui && npm link"
+    "publish": "cd ../../dist/lab-ui && npm link"
   },
   "peerDependencies": {
     "@angular/common": "^18.0.0",
