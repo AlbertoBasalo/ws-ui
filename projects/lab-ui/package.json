@@ -1,10 +1,10 @@
 {
   "name": "@lab/ui",
   "description": "A library with Angular UI components, pipes, and directives for the Lab project.",
-  "version": "0.0.13",
+  "version": "0.0.12",
   "scripts": {
     "ng": "ng",
-    "prerelease": "ng build --configuration production ",
+    "oldprerelease": "ng build --configuration production ",
     "release": "standard-version",
     "prepublish": "npm run release",
     "publish": "cd ../../dist/lab-ui && npm link",
