@@ -12,7 +12,7 @@ import {
   selector: 'lab-ui-location',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: ` <span>📍at {{ value() }} </span> `,
+  template: ` <span>📍At {{ value() }} </span> `,
 })
 export class LocationComponent {
   // * Input signal division

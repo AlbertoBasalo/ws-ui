@@ -23,7 +23,7 @@ export const DATE_FORMAT = new InjectionToken<string>('DATE_FORMAT', {
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [DatePipe],
-  template: ` <span>📅 on {{ value() | date : dateFormat }}</span> `,
+  template: ` <span>📅 On {{ value() | date : dateFormat }}</span> `,
 })
 export class DateComponent {
   // * Input signal division
