@@ -9,10 +9,9 @@
     "build": "ng build lab-ui --configuration production",
     "watch": "ng build lab-ui --watch --configuration development",
     "test": "ng test lab-ui",
-    "prerelease": "standard-version && copyfiles -f ./CHANGELOG.md ./projects/lab-ui",
-    "release": "git push --follow-tags origin main",
-    "prepublish": "npm run build && npm run release",
-    "publish": "cd ./projects/lab-ui && npm run publish"
+    "prepublish": "cd ./projects/lab-ui",
+    "publish": "npm run publish",
+    "postpublish": "npm run link"
   },
   "private": true,
   "dependencies": {
