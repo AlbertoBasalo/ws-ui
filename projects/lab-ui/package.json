@@ -1,5 +1,6 @@
 {
   "name": "@lab/ui",
+  "description": "A library with Angular UI components, pipes, and directives for the Lab project.",
   "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^18.0.0",

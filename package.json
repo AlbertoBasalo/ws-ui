@@ -1,17 +1,17 @@
 {
   "name": "ws-ui",
-  "description": "A library with Angular UI components, pipes, and directives for the Lab project.",
+  "description": "An Angular workspace for the ui library and the ui host application.",
   "version": "18.1.0",
   "scripts": {
     "ng": "ng",
-    "link": "npm link @lab/ui @lab/srv @lab/core",
     "start": "ng serve lab-ui-host",
     "build": "ng build lab-ui --configuration production",
     "watch": "ng build lab-ui --watch --configuration development",
     "test": "ng test lab-ui",
-    "prerelease": "standard-version ",
+    "prerelease": "standard-version && copyfiles -f ./CHANGELOG.md ./projects/lab-ui",
     "release": "git push --follow-tags origin main",
-    "publish": "npm run build && npm run release && cd dist/lab-ui && npm link"
+    "prepublish": "npm run build && npm run release",
+    "publish": "cd dist/lab-ui && npm link"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +32,7 @@
     "@angular/cli": "^18.0.1",
     "@angular/compiler-cli": "^18.0.0",
     "@types/jasmine": "~5.1.0",
+    "copyfiles": "^2.4.1",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
