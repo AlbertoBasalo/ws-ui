@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.7...v0.0.8) (2024-06-10)
+
+
+### Bug Fixes
+
+* branch name ([225c9c9](https://github.com/AlbertoBasalo/ws-ui/commit/225c9c955837f2c007ddb13fac894b7f59d76846))
+
 ### [0.0.7](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.6...v0.0.7) (2024-06-10)
 
 ### [0.0.6](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.5...v0.0.6) (2024-06-10)
