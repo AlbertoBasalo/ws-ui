@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.11...v0.0.12) (2024-06-10)
+
+
+### Features
+
+* chained scripts ([39a5f16](https://github.com/AlbertoBasalo/ws-ui/commit/39a5f16c1aafab34b2ff7799f6a398de800e5823))
+
 ### [0.0.11](https://github.com/AlbertoBasalo/ws-ui/compare/v18.3.0...v0.0.11) (2024-06-10)
 
 ## [18.3.0](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.10...v18.3.0) (2024-06-10)
