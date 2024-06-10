@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.5...v0.0.6) (2024-06-10)
+
+
+### Bug Fixes
+
+* cd cd ([14f3c34](https://github.com/AlbertoBasalo/ws-ui/commit/14f3c34681390d5a11d8badfe574665cb9ba44a7))
+
 ### [0.0.5](https://github.com/AlbertoBasalo/ws-ui/compare/v0.0.4...v0.0.5) (2024-06-10)
 
 
