@@ -4,6 +4,7 @@
   "version": "18.2.0",
   "scripts": {
     "ng": "ng",
+    "link": "npm link @lab/ui",
     "start": "ng serve lab-ui-host",
     "build": "ng build lab-ui --configuration production",
     "watch": "ng build lab-ui --watch --configuration development",
@@ -11,7 +12,7 @@
     "prerelease": "standard-version && copyfiles -f ./CHANGELOG.md ./projects/lab-ui",
     "release": "git push --follow-tags origin main",
     "prepublish": "npm run build && npm run release",
-    "publish": "cd dist/lab-ui && npm link"
+    "publish": "cd ./projects/lab-ui && npm run publish"
   },
   "private": true,
   "dependencies": {

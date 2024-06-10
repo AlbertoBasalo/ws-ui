@@ -112,7 +112,13 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "projects/lab-ui-host/src/environments/environment.ts",
+                  "with": "projects/lab-ui-host/src/environments/environment.development.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -136,6 +142,9 @@
     }
   },
   "cli": {
-    "analytics": "bd8d95ba-5eec-4481-ad6a-8b38fa31b041"
+    "analytics": "bd8d95ba-5eec-4481-ad6a-8b38fa31b041",
+    "cache": {
+      "enabled": false
+    }
   }
 }
