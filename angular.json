@@ -142,7 +142,17 @@
     },
     "lab-wbc": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "changeDetection": "OnPush",
+          "flat": true,
+          "inlineStyle": false,
+          "inlineTemplate": true,
+          "skipSelector": true,
+          "skipTests": true,
+          "style": "none"
+        }
+      },
       "root": "projects/lab-wbc",
       "sourceRoot": "projects/lab-wbc/src",
       "prefix": "lab-wbc",
