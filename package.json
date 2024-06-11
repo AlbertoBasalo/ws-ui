@@ -6,7 +6,10 @@
     "ng": "ng",
     "start": "ng serve lab-ui-host",
     "build": "ng build lab-ui --configuration production",
-    "build:wbc": "ng build lab-wbc --configuration production",
+    "build:wbc": "ng build lab-wbc --configuration production ",
+    "prepack": "npm run build:wbc ",
+    "pack": "copyfiles projects/lab-wbc/package.json dist/lab-wbc/browser -f ",
+    "postpack": "cd ./dist/lab-wbc/browser && npm link",
     "start:wbc": "npx http-server ./dist/lab-wbc/browser -p 8080 ",
     "watch": "ng build lab-ui --watch --configuration development",
     "test": "ng test lab-ui",
@@ -16,6 +19,7 @@
   },
   "private": true,
   "dependencies": {
+    "-": "^0.0.1",
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
@@ -41,6 +45,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "minicat": "^1.0.0",
     "ng-packagr": "^18.0.0",
     "standard-version": "^9.5.0",
     "typescript": "~5.4.2"
