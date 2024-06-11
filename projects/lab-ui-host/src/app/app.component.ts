@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
-import { DATE_FORMAT, DateComponent, LocationComponent } from 'lab-ui';
+import {
+  DATE_FORMAT,
+  DateComponent,
+  LocationComponent,
+} from '../../../lab-ui/src/public-api';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [LocationComponent, DateComponent],
-  providers: [{ provide: DATE_FORMAT, useValue: 'fullDate' }],
+  providers: [{ provide: DATE_FORMAT, useValue: environment.dateFormat }],
   template: `
     <h1>Welcome to {{ title }}!</h1>
     <p>Testing the location component:</p>
