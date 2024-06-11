@@ -4,14 +4,13 @@
   "version": "18.3.0",
   "scripts": {
     "ng": "ng",
-    "link": "npm link @lab/ui",
     "start": "ng serve lab-ui-host",
     "build": "ng build lab-ui --configuration production",
     "watch": "ng build lab-ui --watch --configuration development",
     "test": "ng test lab-ui",
     "prepublish": "cd ./projects/lab-ui && npm run release ",
     "publish": "npm run build && cd ./dist/lab-ui && npm link",
-    "postpublish": "npm run link && git push --follow-tags origin master"
+    "postpublish": "git push --follow-tags origin master"
   },
   "private": true,
   "dependencies": {
