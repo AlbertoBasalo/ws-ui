@@ -2,9 +2,9 @@
   "name": "@lab/wbc",
   "description": "Web Component for Lab",
   "version": "0.0.1",
-  "main": "bundle.js",
+  "main": "main.js",
   "files": [
-    "bundle.js",
+    "main.js",
     "styles.css"
   ]
 }
